@@ -4,3 +4,6 @@ https://sesac.seoul.kr/ 에서 "실무 프로젝트형 인공지능 자연어처
 
 소스코드는 여기에
 https://github.com/insightcampus/sesac-nlp
+
+
+https://insightcampus.co.kr/
