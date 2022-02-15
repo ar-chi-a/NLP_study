@@ -32,13 +32,18 @@ Google PageRank를 기초로함
            undirected 그래프
   (논문 내용에 따른 설명 - 어렵다)         
            
+[실습] 핵심키워드 추출(TextRank)
+1) 행렬활용
+-unique한 토큰 목록 생성 -> 그래프 생성(weighted edge 계산) -> 각 노드의 score계산 - > 핵심 단어 추츨
+
+(어렵다..)
 
 
+3. 문서요약 (Document Summarizer)
+문서에서 중요한 문장을 자동으로 추출하는 과정
 
 
-
-
-
+[실습] 문서요약 (Luhn Summarizer)
 
 
 
