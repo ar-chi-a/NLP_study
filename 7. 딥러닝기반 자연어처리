@@ -8,6 +8,54 @@
 
 2. RNN
 
+유닛간의 연결이 순환적 구조
+시계열 특징을 모델링 할 수 있음
+
+주식과 같은 연속적인 시계열 데이터에 적합 - 언어 모델링, 기계번역, 음성인식 등
+
+1) RNN - one to many
+2) RNN - many to one
+3) RNN - many to one stacking
+4) RNN - many to many
+5) RNN - many to many bidirectional
+
+RNN 문제점 : 장기의존성(long term dependencty) 문제
+
+LSTM(long short-term memory) 장기 단기 메모리 네트워크는 장기적인 종속성을 학습할 수 있는 특수한 종류의 RNN
+
+LSTM 구조 - cell state, 이정 정보를 유지하기 용이
+           input gate를 활용하여 cell state에 대한 정보를 잊거나 추가할 수 있음
+           sigmoid를 활용하여 추가, 유지 결정
+           
+           
+GRU (gated recurrent unit) : LSTM셀의 간소화된 버전, 2014
+
+
+[실습] RNN을 사용한 텍스트 분류
+텐서플로우 공홈 자료 활용
+
+
+
+3. Elmo (embedding from language model) 2018
+
+사전 훈련된 언어 모델을 사용 
+문맥에 따라 임베딩
+순방향, 역방향으로 예측하는 biLM으로 사전 훈련
+순방향은 다음단어를 역방향은 이전단어를 예측
+
+'언어모델 사전학습'과 '자연어처리 Task적용' 2단계로 수행
+
+char CNN : 글자단위로 CNN을 적용하여 임베딩 함으로써, 문매고가 상관없이 단어 안에 포함된 서브단어도 임베딩 가능
+            OOV에 견고
+          
+          
+4. CNN
+
+
+5. Seq2Seq
+
+
+
 
 
 
