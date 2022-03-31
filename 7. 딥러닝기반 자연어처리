@@ -54,7 +54,30 @@ char CNN : 글자단위로 CNN을 적용하여 임베딩 함으로써, 문매고
 
 5. Seq2Seq
 
+many to many 모델 중 하나
+encoder-decoder 구조
+기계번역에 많이 사용
 
+인코더 - 컨테스트 벡터 - 디코더
+
+학습 - teacher forcing
+
+[실습] Seq2Seq
+텐서플로우 공홈 자료 활용
+
+
+6. Seq2Seq (attention)
+
+attention mechanism
+입력 시퀀스의 길이에 상관없이 단일 컨텍스트 벡터로 표현하여 정보 병목 현상이 발생
+디코더에서 예측시 인코에서 집중할 정보를 더 고려하여 예측
+
+어텐션 스코어 - 어텐션 분포
+
+
+[실습] Seq2Seq (attention)
+텐서플로우 공홈 자료 활용
+어텐션을 사용한 인공 신경망 기계 번역
 
 
 
