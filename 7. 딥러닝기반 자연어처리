@@ -81,6 +81,36 @@ attention mechanism
 
 
 
+7. Transformer
+
+CNN이나 RNN을 사용하지 않음
+
+-long-term dependency problem : (RNN은 정보사이의 거리가 멀때 이를 이용 못함) attention mechanism 으로 해결
+-parallelization : (RNN은 병렬화 불가능했음) 이를 행렬 연산 병렬화로 해결
+
+1) 인코더
+ - feed forward, multi-head attention
+ - tranformer 인코더 : multi-head attention
+    self attention - scaled dot-product attention
+    
+ 
+(어려워서 스킵)
+
+[실습] Transformer
+텐서플로우 예제로 연습
+
+
+8. BERT (2018)
+
+-pre-training of deep bodirectional transformer for ~~
+-대용량의 unlabeled data로 모델을 미리 학습 시킨 후 특정 task를 가지고 tranfer learning을 하는 모델
+
+-fine-tuning : tranfer learning, fine-tunning(사전에 학습됨 모델의 파라미터를 task에 맞추어 정교하게 조정하여 활용)
+
+-masked language model(MLM)
+-next sentence prediction(NSP)
+
+
 
 
 
